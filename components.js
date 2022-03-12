@@ -102,10 +102,10 @@ Vue.component('display', {
 Vue.component('custom-main', {
   data: function() {
     return {
-      todos: [ 'Built Web3 App Solidity + Smart Contracts', 'Minted my own NFT Collection', 'Built Mini Turn-Based NFT Browser Game', 'Built Web3 App on Solana React + Rust', 'Minted Solana NFT Collection using Metaplex', 'Built Web3 DAO' ],
+      todos: [ 'Built Web3 App Solidity + Smart Contracts', 'Minted my own NFT Collection', 'Built Mini Turn-Based NFT Browser Game', 'Built Web3 App on Solana React + Rust', 'Minted Solana NFT Collection using Metaplex', 'Built Web3 DAO', 'Build a domain service on Polygon' ],
       uri:'https://tokens.buildspace.so/assets/CH4f447780-07cf-408a-8f4c-253a8b4e8bae-95/render.mp4',
-      uriList: ['https://tokens.buildspace.so/assets/CH6ff98025-6104-44c5-8469-98680ddb98d6-64/render.png', 'https://tokens.buildspace.so/assets/CHbdfb992f-80ca-44a4-b7f7-54bb0365ff50-4/render.png', 'https://tokens.buildspace.so/assets/CHe260d7a4-bd66-4adb-a187-5f7027cb8db2-21/render.mp4', 'https://tokens.buildspace.so/assets/CH9be40837-dd03-4a80-9757-74af0224d35e-159/render.mp4', 'https://tokens.buildspace.so/assets/CH38412f17-fa73-49c7-b6e4-385c7d821b95-88/render.mp4', 'https://tokens.buildspace.so/assets/CH4f447780-07cf-408a-8f4c-253a8b4e8bae-95/render.mp4'],
-      isVideo: [false, false, true, true, true, true]
+      uriList: ['https://tokens.buildspace.so/assets/CH6ff98025-6104-44c5-8469-98680ddb98d6-64/render.png', 'https://tokens.buildspace.so/assets/CHbdfb992f-80ca-44a4-b7f7-54bb0365ff50-4/render.png', 'https://tokens.buildspace.so/assets/CHe260d7a4-bd66-4adb-a187-5f7027cb8db2-21/render.mp4', 'https://tokens.buildspace.so/assets/CH9be40837-dd03-4a80-9757-74af0224d35e-159/render.mp4', 'https://tokens.buildspace.so/assets/CH38412f17-fa73-49c7-b6e4-385c7d821b95-88/render.mp4', 'https://tokens.buildspace.so/assets/CH4f447780-07cf-408a-8f4c-253a8b4e8bae-95/render.mp4', 'https://tokens.buildspace.so/assets/CHe54a5903-fea4-41cd-bb9f-096028eaae06-422/render.mp4'],
+      isVideo: [false, false, true, true, true, true, true]
     }
   },
   template: `
